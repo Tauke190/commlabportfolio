@@ -30,7 +30,7 @@ document.addEventListener("mousemove", (e) => {
 	const rad = Math.atan2(dy, dx);
 	const deg = (rad * 180) / Math.PI;
 	return deg;
-  }
+}
 
 var myArray = [1500, 50, 60, 100, 30, 68];
 
@@ -41,8 +41,6 @@ var statSection = $("#stats"),
 	stats = $(".stat-count");
 
 revealButton.addEventListener("click", function() {
-
-
 	console.log("Button clicked!");
 	stats.each(function () {
 		var $this = $(this);
